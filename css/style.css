@@ -1,0 +1,171 @@
+@import 'https://fonts.googleapis.com/css?family=Rajdhani';
+body{
+	font-family: 'Rajdhani', sans-serif;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #8EA3BE;
+	padding-bottom: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+}
+h1{
+	font-size: 32px;
+	padding-top: 30px;
+}
+header{
+	text-align: right;
+}
+header div{
+	display: inline-block;
+	vertical-align: middle;
+	color: #212C40;
+	padding: 10px;
+}
+
+.slide{
+	background-color: #212C40;
+	color: #fff;
+	padding: 30px;
+}
+.slide li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.slide li h2{
+	font-size: 60px;
+	color: #fff;
+	font-weight: bold;
+}
+.slide li p{
+	font-size: 20px;
+}
+.slide li ul{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.slide li li{
+	display: inline;
+	font-size: 24px;
+	font-weight: bold;
+	padding-right: 15px;
+}
+.slide li img{
+	
+}
+@media(max-width: 480px){
+	h1{
+		font-size: 26px;
+	}
+	.slide li{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.slide li h2{
+		font-size: 24px;
+	}
+	.slide li p{
+		font-size: 14px;
+	}
+	.slide li li{
+		display: inline;
+		font-size: 16px;
+		font-weight: bold;
+		padding-right: 7px;
+	}
+}
+section div .elemento{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	
+	text-align: center;
+}
+section div .elemento img{
+ 	width: 100%;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	border: 0px;
+}
+
+section div .elemento p.descrip{
+	width: 100%;
+	background-color: rgba(0,99,159,0.6);
+	position: absolute;
+	bottom: 20px;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+.bloque{
+	margin: 0 auto;
+  	width: 80%;
+  	padding-top: 30px;
+	padding-bottom: 30px;
+}
+h2{
+	font-size: 40px;
+	color: #00639F;
+	font-weight: bold;
+}
+h3{
+	font-size: 25px;
+}
+.bloque1 div{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.bloque div p{
+	line-height: 28px;
+}
+.bloque2{
+	background-color: #293744;
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	box-sizing: border-box;
+}
+.bloque2 h2{
+	color: #fff;
+}
+.bloque2 div{
+	padding-top: 20px;
+}
+.ponente{
+	clear: left;
+	display: inline-block;
+	min-width: 250px;
+	max-height: 332px;
+	width: 30%;
+	height: auto;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	box-sizing: border-box;
+	color: #fff;
+}
+.ponente h3{
+	font-weight: bold;
+	padding-top: 5px;
+}
+.bloque2 div img{
+	border-radius: 50%;
+	border: 5px solid #00639F;
+	width: 80%;
+	height: auto;
+
+}
+footer{
+	text-align: center;
+	color: #fff;
+	background-color: #070803;
+	width: 100%;
+	height: auto;
+	position: fixed; /* Fija el contenedor a una posición */
+	bottom: 0px; /* El div se sitúa abajo */
+	z-index: -88; /* Lo muestra por encima de otros div */
+}

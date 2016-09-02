@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div>
+			<h1>Fedora Weekend - Lima 2016</h1>
+		</div>
+		<div>
+			<figure>
+				<a href="https://getfedora.org" target="_blank"> <img src="images/Logo_fedora.png" alt="Logo de Fedora"></a>
+			</figure>
+		</div>
+	</header>
+	<section class="slide">
+		<ul>
+			<li>
+				<h2>Soluciones para la empresa</h2>
+			</li>
+			<li>
+				<p>Experiencia real servicios con open source en los negocios...</p>
+			</li>
+			<li>
+				<ul>
+					<li> Cloud</li>
+					<li>Alta disponibilidad</li>
+					<li>Seguridad</li>
+					<li>Aprovisionamiento</li>
+					<li>Monitoreo</li>
+					<li>Otros...</li>
+				</ul>
+			</li>
+			<li>
+				<p>17 de Setiembre 2016 - 09:00 am</p>
+			</li>
+			<li>
+				<ul>
+					<li><img src="images/freedom.png"></li>
+					<li><img src="images/friends.png"></li>
+					<li><img src="images/features.png"></li>
+					<li><img src="images/first.png"></li>
+				</ul>					
+			</li>
+		</ul>
+	</section>
+
+	<section class="bloque bloque1">
+		<h2>Actividades</h2>
+		<div>
+			<h3>¿Qué es Fedora Weekend?</h3>
+			<p>Es un evento especializado preFudcon de la comunidad Fedora que se desarrolla en distintas ciudades del Perú con el objetivo de compartir experiencias reales en producción con toda persona interesada en conocer o reforzar contenidos...</p>
+		</div>
+		<div>
+			<h3>¿Qué es Fudcon?</h3>
+			<p>	FUDCon es la Conferencia de Usuarios y Desarrolladores de Fedora, uno de los más grandes eventos de Software Libre del año se realiza en varias regiones alrededor del mundo. Este año, FUDCon se realizará en la ciudad de Puno, en el Edificio de Educación Continua de la Universidad Nacional del Altiplano de Puno, con especial énfasis en el fortalecimiento de la comunidad de usuarios y desarrolladores de software libre. Más información en <a href="http://www.fudconlatam.org" target="_blank">aquí</a></p>
+		</div>
+		<div>
+			<h3>¿Qué es Fudcon?</h3>
+			<p>	FUDCon es la Conferencia de Usuarios y Desarrolladores de Fedora, uno de los más grandes eventos de Software Libre del año se realiza en varias regiones alrededor del mundo. Este año, FUDCon se realizará en la ciudad de Puno, en el Edificio de Educación Continua de la Universidad Nacional del Altiplano de Puno, con especial énfasis en el fortalecimiento de la comunidad de usuarios y desarrolladores de software libre. Más información en <a href="http://www.fudconlatam.org" target="_blank">aquí</a></p>
+		</div>		
+	</section>
+	<section class="bloque bloque2">
+		<h2>Conferencistas</h2>
+		<div class="ponente">
+			<a href="https://www.linkedin.com/in/juan-oliva-c-eh-c-pte-lpic-1-cla-dcaa-ece-45347031" target="_blank"><img src="images/juan.png"></a>
+			<h3>Juan Oliva</h3>
+			<p>Consultor de soluciones Linux, implementación y auditoría de seguridad de la información, telefonía IP</p>
+		</div>		
+		<div class="ponente">
+			<a href="https://pe.linkedin.com/in/cleverflores" target="_blank"><img src="images/clever.jpg"></a>
+			<h3>Clever Flores</h3>
+			<p>CEO en Cloud Perú cloudperu.pe y director de aulautil.com - Sysadmin, Programador</p>
+		</div>
+		<div class="ponente">
+			<a href="https://pe.linkedin.com/in/amogrovejo" target="_blank"><img src="images/anthony.jpg"></a>
+			<h3>Antony Mogrovejo</h3>
+			<p>SysAdmin, Ingeniero de Sistemas - Ambassador Fedora y DevOPS.</p>
+		</div>
+		<div class="ponente">
+			<a href="https://pe.linkedin.com/in/raulhugo" target="_blank"><img src="images/hugo.jpg"></a>
+			<h3>Clever Flores</h3>
+			<p>Ingeniero de Sistemas en Verizon, Cloud Especialist, Ansible Automator </p>
+		</div>
+		<div class="ponente">
+			<a href="https://pe.linkedin.com/in/joelporrasit" target="_blank"><img src="images/chasky.jpg"></a>
+			<h3>Joel Porras Caso</h3>
+			<p>Information Security & IT Chief - PERUTRAK.COM S.A.C., SYAM SYSTEMS S.A.C.</p>
+		</div>
+		<div class="ponente">
+			<a href="https://www.linkedin.com/in/juazisco" target="_blank"><img src="images/jose.jpg"></a>
+			<h3>Francisco Jose Quiñones</h3>
+			<p>Ing. de Sistemas, Gestión de Proyectos, Análisis de Negocios, Diseño y desarrollo de Software.</p>
+		</div>
+											
+	</section>
+
+	<footer>
+		<p>Pie de pagina</p>
+	</footer>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){     
+			$('#slider div:gt(0)').hide();     
+				setInterval(function(){      
+				 $('#slider div:first-child').fadeOut(0)          
+				 .next('div').fadeIn(1000)          
+				 .end().appendTo('#slider');}, 4000);
+				  });
+	</script>﻿
+</body>
+</html>
