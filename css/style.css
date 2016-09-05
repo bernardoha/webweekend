@@ -5,42 +5,71 @@ body{
 }
 
 header{
+	display: block;
+	position: fixed;
 	background-color: #8EA3BE;
-	padding-bottom: 20px;
-	text-align: center;
+	height: 100px;
 	box-sizing: border-box;
 	width: 100%;
+	z-index: 9999999999999;
+	text-align: center;
 }
 h1{
 	font-size: 32px;
-	padding-top: 30px;
-}
-header{
-	text-align: right;
+	
 }
 header div{
 	display: inline-block;
 	vertical-align: middle;
 	color: #212C40;
-	padding: 10px;
-}
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	box-sizing: border-box;
 
-.slide{
-	background-color: #212C40;
+}
+header div ul{
+
+}
+header div li{
+	display: inline-block;
+	font-size: 20px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+header div li a{
+	text-decoration: none;
+	color: #212C40;
+}
+header div li a:hover{
 	color: #fff;
-	padding: 30px;
+}
+header .menu{
+	right: 30px;
+	float: right;
+}
+.content{
+	padding-top: 100px;
+}
+.slide{
+	background-color: #404E68;
+	color: #fff;
+	padding-top: 50px;
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 .slide li{
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 .slide li h2{
-	font-size: 60px;
+	font-size: 74px;
 	color: #fff;
 	font-weight: bold;
 }
 .slide li p{
-	font-size: 20px;
+	font-size: 28px;
 }
 .slide li ul{
 	padding-top: 20px;
@@ -48,16 +77,71 @@ header div{
 }
 .slide li li{
 	display: inline;
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: bold;
 	padding-right: 15px;
 }
-.slide li img{
+.slide div h4{
+	text-align: center;
+	padding-bottom: 20px;
+	width: 200px;
+	margin: 0 auto;
 	
+	font-size: 40px;
+	font-weight: bold;
 }
-@media(max-width: 480px){
+.slide div a{
+	text-decoration: none;
+	color: #E59728;
+}
+.slide div a:hover{
+	color: #79DB32;
+}
+@media(max-width: 1280px){
+	header div{
+		padding-top: 3px;
+	}
+}
+@media(max-width: 1024px){
+	body{
+		width: 100%;
+	}
+	header div ul{
+		padding-top: 3px;
+		
+	}	
+}
+@media(max-width: 768px){
+	body{
+		width: 100%;
+	}
+	header{
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	header div img{
+		width: 60%;
+		height: auto;
+	}
+	header div{
+		padding-top: 3px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	header div ul{
+		padding-top: 3px;
+	}
+	header div li{
+		
+	}
 	h1{
 		font-size: 26px;
+		padding-top: 5px;
+	}
+	.slide{
+		text-align: center;
+		padding-top: 50px;
 	}
 	.slide li{
 		padding-top: 5px;
@@ -75,6 +159,16 @@ header div{
 		font-weight: bold;
 		padding-right: 7px;
 	}
+}
+@media(max-width: 485px){
+	h1{
+			font-size: 22px;
+			padding-top: 3px;
+		}
+	header div li{
+		font-size: 14px;
+		padding-top: 0px;
+	}	
 }
 section div .elemento{
 	position: relative;
@@ -159,13 +253,39 @@ h3{
 	height: auto;
 
 }
+.bloque4{
+	background-color: #7A818B;
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	box-sizing: border-box;
+}
+.bloque4 h2{
+	color: #fff;
+}
+.bloque4 ul{
+	text-align: center;	
+}
+.bloque4 li{
+	padding-left: 30px;
+	padding-right: 30px;
+	display: inline;
+}
 footer{
 	text-align: center;
 	color: #fff;
 	background-color: #070803;
 	width: 100%;
 	height: auto;
-	position: fixed; /* Fija el contenedor a una posición */
-	bottom: 0px; /* El div se sitúa abajo */
-	z-index: -88; /* Lo muestra por encima de otros div */
+
+}
+footer div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+footer div div li{
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
 }
