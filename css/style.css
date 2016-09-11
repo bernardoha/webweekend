@@ -81,14 +81,18 @@ header .menu{
 	font-weight: bold;
 	padding-right: 15px;
 }
-.slide div h4{
+.slide div{
 	text-align: center;
+	padding-bottom: 20px;
+}
+.slide div h4{
 	padding-bottom: 20px;
 	width: 200px;
 	margin: 0 auto;
-	
 	font-size: 40px;
 	font-weight: bold;
+	display: inline;
+	padding: 0px 10px 0px 10px;
 }
 .slide div a{
 	text-decoration: none;
